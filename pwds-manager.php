@@ -26,9 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // exit if accessed directly    
 }
 
-	/*
-	**Create Datatable for plugin  activation
-	*/	
+	/* Create Datatable for plugin  activation */	
 	if ( ! function_exists('pms_db_install') ){
 		function pms_db_install() {
 			global $wpdb;
